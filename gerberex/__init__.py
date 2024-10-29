@@ -13,3 +13,4 @@ This package provide panelizing of PCB fucntion.
 from gerberex.common import read, loads, rectangle
 from gerberex.composition import GerberComposition, DrillComposition
 from gerberex.dxf import DxfFile
+from gerberex.panelize_script import PanelizeScript, PanelizeItem

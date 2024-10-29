@@ -1,0 +1,36 @@
+{
+    "type": "v-cut",
+    "width": 200,
+    "height": 200,
+    "target_extensions": [
+        "GTL",
+        "GTO",
+        "GTP",
+        "GTS",
+        "GBL",
+        "GBO",
+        "GBP",
+        "GBS",
+        "TXT"
+    ],
+    "mousebite": {
+        "enable": false,
+        "dxf_path": "inputs/mousebites.dxf"
+    },
+    "v_cut": {
+        "offset": 0.0
+    },
+    "fill": false,
+    "output": "outputs/panelized",
+    "files": [
+        {
+            "path_prefix": "inputs/PCB.",
+            "outline_ext": "GM1",
+            "x": -28.8,
+            "y": -28.8,
+            "angle": 0,
+            "row": 2,
+            "column": 2
+        }
+    ]
+}
