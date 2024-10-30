@@ -11,6 +11,8 @@ class PanelizeItem:
         self,
         path_prefix: str = "",
         outline_ext: str = "GM1",
+        drill_suffix_pattern: str = ".TXT$",
+        drill_output_ext: str = "TXT",
         x: float = 0.0,
         y: float = 0.0,
         angle: float = 0.0,
@@ -21,6 +23,8 @@ class PanelizeItem:
         self.x = x
         self.y = y
         self.outline_ext = outline_ext
+        self.drill_suffix_pattern = drill_suffix_pattern
+        self.drill_output_ext = drill_output_ext
         self.angle = angle
         if row < 1:
             raise ValueError("row must be greater than 0")

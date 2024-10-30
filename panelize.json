@@ -10,8 +10,7 @@
         "GBL",
         "GBO",
         "GBP",
-        "GBS",
-        "TXT"
+        "GBS"
     ],
     "mousebite": {
         "enable": false,
@@ -26,11 +25,13 @@
         {
             "path_prefix": "inputs/PCB1",
             "outline_ext": "GM1",
+            "drill_suffix_pattern": "-(Rect|Round|Slot)Holes-(Non)?Plated.TXT$",
+            "drill_output_ext": "TXT",
             "x": 0,
             "y": 0,
             "angle": 0,
-            "row": 2,
-            "column": 2
+            "row": 10,
+            "column": 4
         }
     ]
 }
