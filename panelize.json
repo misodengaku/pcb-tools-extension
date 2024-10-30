@@ -24,10 +24,10 @@
     "output": "outputs/panelized",
     "files": [
         {
-            "path_prefix": "inputs/PCB.",
+            "path_prefix": "inputs/PCB1",
             "outline_ext": "GM1",
-            "x": -28.8,
-            "y": -28.8,
+            "x": 0,
+            "y": 0,
             "angle": 0,
             "row": 2,
             "column": 2
